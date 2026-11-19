@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Tu Factura Ya Printer
+Exec=/bin/sh -c "case \\"\\$XDG_DATA_HOME\\" in /*) data=\\$XDG_DATA_HOME;; *) data=\\$HOME/.local/share;; esac; exec \\"\\$data/ec.tufacturaya.printer/tu-factura-ya-printer\\""
+Icon=ec.tufacturaya.printer
+Terminal=false
+Categories=Office;
+StartupWMClass=ec.tufacturaya.printer

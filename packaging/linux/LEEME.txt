@@ -1,0 +1,10 @@
+Tu Factura Ya Printer para Linux x64
+
+Extrae el archivo y abre la carpeta. Para añadir la aplicación con su icono
+al menú de tu escritorio, ejecuta ./install-launcher.sh. La instalación es
+para tu usuario y no requiere sudo. También puedes abrir la aplicación desde
+la carpeta extraída con ./tu-factura-ya-printer.
+
+El ejecutable requiere glibc 2.28 o posterior y un escritorio X11 o Wayland
+con OpenGL. Para imprimir, instala CUPS y las herramientas lp y lpstat.
+Las credenciales se guardan con Secret Service mediante secret-tool.
